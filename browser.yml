@@ -1,0 +1,32 @@
+# User credentials for BrowserStack
+userName: pradeepgangadhar_9S1uPB
+accessKey: xReAmogprFE5VqLCFWH5
+
+# Project information
+projectName: BrowserStack Sample
+buildName: browserstack build
+
+# Application to be tested
+app: bs://88564cc2e033a8dbc47eb0a2e9370ea438e05406
+
+# Platform and device details
+platforms:
+  - platformName: android
+    deviceName: Samsung Galaxy S22 Ultra
+    platformVersion: 12.0
+  - platformName: android
+    deviceName: Google Pixel 7 Pro
+    platformVersion: 13.0
+  - platformName: android
+    deviceName: OnePlus 9
+    platformVersion: 11.0
+
+# Number of parallels per platform
+parallelsPerPlatform: 1
+
+# Enable BrowserStack automation
+browserstackAutomation: "false"  # Setting this to true enables automation
+
+# Additional settings
+browserstackLocal: true
+debug: false

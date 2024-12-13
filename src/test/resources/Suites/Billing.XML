@@ -1,0 +1,13 @@
+ <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Android Analytics Regression Suite">
+    <listeners>
+        <listener class-name="org.example.Listner"/>
+    </listeners>
+    <test thread-count="5" name="billing">
+        <classes>
+            <class name="org.example.finalBilling"></class>
+        </classes>
+    </test>
+
+</suite>
